@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+.container {
+  font-family: "Poppins", sans-serif;
+}
+
+.btn-main {
+  background-color: #f55a5a;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-main:hover {
+  background-color: #e14d4d;
+  transform: translateY(-2px);
+}
+
+.btn-main:active {
+  background-color: #e14d4d;
+  transform: translateY(1px);
+}
+
+.btn-pagination {
+  background-color: #e0e0e0;
+  color: #333;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-pagination:hover {
+  background-color: #d3d3d3;
+  transform: translateY(-2px);
+}
+
+.btn-pagination:active {
+  background-color: #c0c0c0;
+  transform: translateY(1px);
+}
+
+.grid-cols-5 li {
+  background-color: #545454;
+  color: #fff;
+  font-weight: 700;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.grid-cols-5 li:hover {
+  background-color: #e0e0e0;
+  color: #333;
+  transform: translateY(-2px);
+}
+
+.grid-cols-5 li.bg-red-600 {
+  background-color: #f55a5a;
+}
+
+.grid-cols-5 li.bg-green-600 {
+  background-color: #38a169;
+}
+
+.grid-cols-5 li:active {
+  transform: translateY(1px);
+}
+
+.relative .flex .w-full.bg-gray-200 {
+  height: 4px;
+  border-radius: 2px;
+}
+
+.bg-red-600 {
+  transition: width 0.5s ease;
+  background-color: #f55a5a;
+}
+
+@media print {
+  html,
+  body {
+    display: none !important;
+  }
+}
